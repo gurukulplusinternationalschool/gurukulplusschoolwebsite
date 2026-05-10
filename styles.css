@@ -232,7 +232,22 @@ button{cursor:pointer;border:none;font-family:inherit}
 @media(max-width:768px){
   .nav-links{display:none}
   .nav-toggle{display:flex}
-  .hero-stats{flex-wrap:wrap;gap:24px}
+  .hero-stats{flex-wrap:nowrap;gap:24px}
+  .hero-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:.78rem;
+    padding:7px 14px;
+    gap:5px;
+    margin-top:95px;
+    margin-bottom:10px;
+    width:auto;
+    max-width:95%;
+    flex-wrap:wrap;
+    text-align:center;
+    line-height:1.4;
+  }
   .about-grid,.contact-grid{grid-template-columns:1fr}
   .features-grid,.academics-grid,.facilities-grid{grid-template-columns:1fr}
   .admission-steps{grid-template-columns:1fr}
